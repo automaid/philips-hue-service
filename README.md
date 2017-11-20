@@ -1,5 +1,7 @@
 # philips-hue-service
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/automaid/philips-hue-service.svg)](https://greenkeeper.io/)
+
 # Setup
 To register a new user with the bridge run `hue-service register` and press the Link Button on your Bridge.
 
