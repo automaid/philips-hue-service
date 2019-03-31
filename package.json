@@ -23,7 +23,7 @@
     "dependencies": {
         "bunyan": "^1.8.10",
         "bunyan-format": "^0.2.1",
-        "js-yaml": "^3.9.0",
+        "js-yaml": "^3.13.0",
         "node-hue-api": "^2.4.2",
         "restify": "^5.0.1",
         "sleep-promise": "^2.0.0",
