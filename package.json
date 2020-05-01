@@ -1,35 +1,39 @@
 {
-    "name": "@automaid/philips-hue-service",
-    "version": "1.0.0",
-    "description": "Expose the Philips Hue API as a configurable HTTP API",
-    "main": "src/index.js",
-    "bin": {
-        "hue-service": "bin/hue-service"
-    },
-    "scripts": {
-        "start": "bin/hue-service",
-        "lint": "eslint src/** bin/**"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/automaid/philips-hue-service.git"
-    },
-    "author": "Max Jöhnk <maxjoehnk@gmail.com>",
-    "license": "GPL-3.0",
-    "bugs": {
-        "url": "https://github.com/automaid/philips-hue-service/issues"
-    },
-    "homepage": "https://github.com/automaid/philips-hue-service#readme",
-    "dependencies": {
-        "bunyan": "^1.8.10",
-        "bunyan-format": "^0.2.1",
-        "js-yaml": "^3.9.0",
-        "node-hue-api": "^2.4.2",
-        "restify": "^5.0.1",
-        "sleep-promise": "^2.0.0",
-        "yargs": "^8.0.2"
-    },
-    "devDependencies": {
-        "eslint": "^4.3.0"
-    }
+  "name": "@automaid/philips-hue-service",
+  "version": "1.0.0",
+  "description": "Expose the Philips Hue API as a configurable HTTP API",
+  "main": "src/index.js",
+  "bin": {
+    "hue-service": "bin/hue-service"
+  },
+  "scripts": {
+    "start": "bin/hue-service",
+    "lint": "eslint src/** bin/**",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automaid/philips-hue-service.git"
+  },
+  "author": "Max Jöhnk <maxjoehnk@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/automaid/philips-hue-service/issues"
+  },
+  "homepage": "https://github.com/automaid/philips-hue-service#readme",
+  "dependencies": {
+    "bunyan": "^1.8.10",
+    "bunyan-format": "^0.2.1",
+    "js-yaml": "^3.9.0",
+    "node-hue-api": "^2.4.2",
+    "restify": "^5.0.1",
+    "sleep-promise": "^2.0.0",
+    "yargs": "^8.0.2",
+    "snyk": "^1.316.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0"
+  },
+  "snyk": true
 }
