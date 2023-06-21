@@ -25,9 +25,9 @@
         "bunyan-format": "^0.2.1",
         "js-yaml": "^3.9.0",
         "node-hue-api": "^2.4.2",
-        "restify": "^5.0.1",
+        "restify": "^10.0.0",
         "sleep-promise": "^2.0.0",
-        "yargs": "^8.0.2"
+        "yargs": "^10.0.0"
     },
     "devDependencies": {
         "eslint": "^4.3.0"
